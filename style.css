@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70 px;
+  position: fixed;
+  top: 0;
+  background-color: hsl(236, 64%, 86%);
+}
+
+header div {
+  float: left;
+  justify-content: space-between;
+}
+header .logo {
+  margin-left: 200px;
+  padding: 20px;
+}
+
+header .nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 200px;
+}
+
+header .nav ul {
+  list-style: none;
+}
+header .nav ul li {
+  float: left;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+header .nav ul li a {
+  text-decoration: none;
+  color: rgb(50, 49, 49);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+header .nav ul li a:hover {
+  color: #7f97ff;
+}
+
+/*Section 1 Start*/
+
+.sec1 {
+  background-color: hsl(236, 64%, 86%);
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.text1 .img1 {
+  width: 50%;
+}
+
+.text1 {
+  margin-left: 230px;
+  margin-bottom: 120px;
+}
+
+.img1 {
+  padding-right: 160px;
+  margin-top: 50px;
+}
+
+.img1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text1 h3 {
+  font-weight: normal;
+}
+
+.text1 h1 {
+  font-size: 60px;
+}
+
+.text1 p {
+  color: rgba(97, 100, 112, 0.8);
+}
+
+.text1 input {
+  padding: 10px 20px;
+  background-color: rgb(64, 3, 162);
+  outline: none;
+  color: white;
+  border: 1px solid rgb(64, 3, 162);
+  font-size: 15px;
+}
+
+.text1 input:hover {
+  box-shadow: 5px 10px 30px rgb(166, 129, 181);
+  transition: all 0.5s ease-in 0.1s;
+  outline: none;
+}
+
+/*Section 1 End*/
+
+/*Section 2 Start*/
+
+.sec2 {
+  background-color: rgb(206, 233, 254);
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text2 .img2 {
+  width: 50%;
+}
+
+.text2 {
+  margin-right: 230px;
+  margin-bottom: 120px;
+}
+
+.img2 {
+  padding-left: 260px;
+  margin-top: 50px;
+}
+
+.img2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text2 h3 {
+  font-weight: normal;
+}
+
+.text2 h1 {
+  font-size: 60px;
+}
+
+.text2 p {
+  color: rgba(97, 100, 112, 0.8);
+}
+
+.text2 input {
+  padding: 10px 20px;
+  background-color: rgb(64, 3, 162);
+  outline: none;
+  color: white;
+  border: 1px solid rgb(64, 3, 162);
+  font-size: 15px;
+}
+
+.text2 input:hover {
+  box-shadow: 5px 10px 30px rgb(108, 49, 132);
+  transition: all 0.5s ease-in 0.1s;
+  outline: none;
+}
+
+/*Section 2 End*/
+
+/*Section 3 Start*/
+
+.sec3 {
+  width: 100%;
+  height: 650px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #cfead8;
+  padding-top: 70px;
+}
+
+.ftext3 h1 {
+  font-size: 40px;
+  line-height: 10px;
+}
+.ftext3 p {
+  width: 500px;
+  color: rgba(10, 10, 10, 0.7);
+  margin: 0 auto;
+}
+
+.service {
+  padding-top: 60px;
+}
+
+.ser1,
+.ser2 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ser1 div,
+.ser2 div {
+  width: 32%;
+  float: left;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.ser2 {
+  padding-top: 70px;
+}
+
+.service i {
+  font-size: 45px;
+  color: rgba(10, 10, 10, 0.7);
+}
+
+.service h1 {
+  color: rgba(10, 10, 10, 0.7);
+}
+
+.service p {
+  color: rgba(10, 10, 10, 0.7);
+}
+
+.ser1 div i:hover,
+.ser1 div h1:hover {
+  color: #7f97ff;
+}
+
+.ser2 div i:hover,
+.ser2 div h1:hover {
+  color: #7f97ff;
+}
+
+/*Section 3 End*/
+
+/*Footer Starts*/
+
+footer {
+  background-color: #180126;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+footer .foot {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+footer .foot .foot1 p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer .foot .foot1 input {
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 10px 150px 10px 10px;
+}
+
+footer .foot .foot1 button {
+  font-size: 18px;
+  color: white;
+  background-color: #7f97ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+footer .foot .foot1 i {
+  font-size: 15px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+footer .foot .foot1 i:hover {
+  color: #7f97ff;
+}
+
+/*Footer End*/
